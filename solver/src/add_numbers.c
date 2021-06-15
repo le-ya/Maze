@@ -5,7 +5,7 @@
 ** add_numbers
 */
 
-#include "include/my.h"
+#include "my.h"
 
 int save_col(int nb)
 {

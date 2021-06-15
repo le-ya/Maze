@@ -5,7 +5,7 @@
 ** decrypt_map
 */
 
-#include "../include/my.h"
+#include "my.h"
 
 void decrypt_map(int **map, int row, int col)
 {

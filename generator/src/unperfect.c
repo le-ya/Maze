@@ -5,7 +5,7 @@
 ** unperfect.c
 */
 
-#include "../include/my.h"
+#include "my.h"
 #include "time.h"
 
 void check_rand(int *x, int *y)

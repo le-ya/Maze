@@ -5,7 +5,7 @@
 ** error_handling
 */
 
-#include "include/my.h"
+#include "my.h"
 
 void checkfile(char *filepath)
 {

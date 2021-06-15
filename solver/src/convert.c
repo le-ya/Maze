@@ -5,7 +5,7 @@
 ** convert
 */
 
-#include "include/my.h"
+#include "my.h"
 
 void printmap(char **map)
 {

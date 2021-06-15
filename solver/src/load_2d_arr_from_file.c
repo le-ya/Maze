@@ -5,7 +5,7 @@
 ** load_map
 */
 
-#include "../include/my.h"
+#include "my.h"
 
 int num_row(char *str)
 {

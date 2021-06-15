@@ -5,7 +5,7 @@
 ** generate
 */
 
-#include "../include/my.h"
+#include "my.h"
 
 void auto_free(int **map, int row)
 {

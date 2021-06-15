@@ -6,8 +6,8 @@
 ##
 
 .PHONY: fclean all
-
 all: COMPIL
+
 COMPIL:
 	@cd generator && make
 	@cd solver && make

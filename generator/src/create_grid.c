@@ -5,7 +5,7 @@
 ** create_grid
 */
 
-#include "../include/my.h"
+#include "my.h"
 
 int **create_grid(int **map, int row, int col)
 {

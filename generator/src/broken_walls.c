@@ -5,7 +5,7 @@
 ** broken_walls
 */
 
-#include "../include/my.h"
+#include "my.h"
 #include "time.h"
 
 int **replace_number(int **map, int col, int x)

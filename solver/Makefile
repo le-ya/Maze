@@ -6,28 +6,19 @@
 ##
 
 .PHONY: fclean all
-SRC		=	load_2d_arr_from_file.c \
-			putnbinmap.c \
-			singleton.c \
-			startsolver.c \
-			add_numbers.c	\
-			error_handling.c \
-			trace_path.c	\
-			convert.c		\
-			main.c
+
+SRC 	=	$(wildcard src/*.c)
+
+CFLAGS	=	-I./include -g3
+
+NAME	=	solver
 
 all: COMPIL
-
-NAME = solver
-
-OBJ = $(SRC:.c=.o)
-
-COMPIL:
-	gcc -o $(NAME) -I include/ $(SRC) -g3
-
+COMPIL:	$(SRC:.c=.o)
+	@gcc -o $(NAME) $(SRC) $(CFLAGS)
+	@echo "-> Done"
 clean:
-	rm -f *.o
-	rm $(NAME)
-
+	rm -f src/*.o
 fclean: clean
+	rm -f $(NAME)
 re: fclean all

@@ -5,7 +5,7 @@
 ** malloc_map
 */
 
-#include "../include/my.h"
+#include "my.h"
 
 int **malloc_map(int row, int col)
 {

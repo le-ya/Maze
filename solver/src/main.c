@@ -4,7 +4,7 @@
 ** File description:
 ** main
 */
-#include "../include/my.h"
+#include "my.h"
 
 void auto_free(char **map, int **mapnb, int row)
 {

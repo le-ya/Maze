@@ -5,7 +5,7 @@
 ** trace_path
 */
 
-#include "include/my.h"
+#include "my.h"
 
 int save_max(int nb)
 {
