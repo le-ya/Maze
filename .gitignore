@@ -1,0 +1,41 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+NormEZ.rb
+.idea/
+=======
+BootStrap/
+NormEZ.rb
+CMakeLists.txt
+cmake-build-debug/CMakeFiles/
+*.o
+.idea/
+.bash_history
+.history
+vgcore.*
+dante
+map.txt
+map2.txt
+map3.txt
+map_4
+empty
+>>>>>>> solver
+=======
+
+.idea/
+
+NormEZ.rb
+>>>>>>> generator
+
+.viminfo
+
+test
+
+generator/generator
+
+solver/solver
+
+solver/map
+
+bad_gen_method
+
+good_gen
